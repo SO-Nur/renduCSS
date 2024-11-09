@@ -3,19 +3,19 @@ body {
 }
 
 h1 {
-    color: #BF8665;
+    color: #7B645C;
     font-family: "Delius Swash Caps", cursive;
 }
 
 h2 {
-    color: #BF8665;
+    color: #7B645C;
     font: 3em "Delius Swash Caps", cursive;
 }
 
 nav  {
     height: 80px;
-    background-color: #F2E4D8;
-    border-bottom: 2px dashed #D9B5A0 ;
+    background-color: #FFF3E9;
+    border-bottom: 2px dashed #7b645c44  ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@ nav  {
 }
 
 nav img {
-    width: 25%;
+    width: 60%;
 }
 
 nav ul, nav div {
@@ -36,9 +36,8 @@ nav li {
 }
 
 nav li:hover {
-    border-top: 2px solid #BF8665;
+    border-top: 2px solid #7B645C;
 }
-
 
 li {
     list-style: none;
@@ -46,14 +45,14 @@ li {
 
 a {
     text-decoration: none;
-    color: #BF8665;
+    color: #7B645C;
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-color: #F2E4D8;
+    background-color: #fff3e9;
 }
 
 .hero div {
@@ -70,7 +69,7 @@ a {
 .hero a {
     width: 150px;
     height: 30px;
-    background-color: #BF8665;
+    background-color: #7B645C;
     border-radius: 50px;
     color: #FFFFFF;
     text-align: center;
@@ -95,7 +94,7 @@ main {
 
 .performance h3 {
     font-size: 80px;
-    color: #BF8665;
+    color: #7B645C;
     margin: 0;
 }
 
@@ -111,14 +110,15 @@ main {
 
 .perform i {
     font-size: 40px;
-    color: #D9B5A0;
+    color: #E8C7BB;
     margin-bottom: 10px;
 }
 
 .line
 {
-    width: 100px;
-    border-bottom: 2px dashed #BF8665;
+    width: 200px;
+    margin-left: 500px;
+    border-bottom: 2px dashed #7B645C;
 }
 
 .gallery {
@@ -126,7 +126,7 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 0px;
+    margin-bottom: 100px;
 }
 
 .gallery img {
@@ -136,7 +136,7 @@ main {
 }
  
 .gallery div {
-    background-color: #F2E4D8;
+    background-color: #fff3e9;
     padding: 60px 40px;
     display: flex;
     justify-content: space-around;
@@ -148,11 +148,15 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 0 60px;
 }
 
 .about div {
     width: 800px;
+    padding: 40px 60px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .about p {
@@ -162,11 +166,15 @@ main {
 
 footer {
     height: 100px;
-    background-color: #383635;
+    background-color: #3B2B30;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
     align-items: first baseline;
+}
+
+footer a {
+    color: #E8C7BB;
 }
 
 footer ul {
@@ -177,7 +185,7 @@ footer ul {
 }
 
 footer div {
-    color: #BF8665;
+    color: #E8C7BB;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -186,12 +194,12 @@ footer div {
 #contact {
     margin-left: 30px;
     padding: 10px;
-    border: 1px solid #BF8665;
+    border: 1px solid #E8C7BB;
     border-radius: 50px;
 }
 
 #contact:hover {
-    background-color: #F2E4D8;
+    background-color: #7B645C;
 }
 
 
