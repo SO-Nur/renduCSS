@@ -69,7 +69,7 @@ a {
 .hero a {
     width: 150px;
     height: 30px;
-    background-color: #7B645C;
+    background-color: #3B2B30;
     border-radius: 50px;
     color: #FFFFFF;
     text-align: center;
@@ -78,7 +78,7 @@ a {
 }
 
 .hero a:hover {
-    background-color: #D9B5A0;
+    background-color: #7B645C;
 }
 
 main {
@@ -116,9 +116,9 @@ main {
 
 .line
 {
-    width: 200px;
-    margin-left: 500px;
-    border-bottom: 2px dashed #7B645C;
+    display: flex;
+    justify-content: center;
+    color: #7B645C;
 }
 
 .gallery {
@@ -167,7 +167,7 @@ main {
 footer {
     height: 100px;
     background-color: #3B2B30;
-    padding: 10px 60px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: first baseline;

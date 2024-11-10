@@ -2,6 +2,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+main {
+    margin-top: 100pt;
+}
+
 h1 {
     color: #7B645C;
     font-family: "Delius Swash Caps", cursive;
@@ -53,17 +57,19 @@ a {
     color: #7B645C;
 }
 
-.formation {
+.formation1, .formation2, .formation3 {
     margin: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 20px;
+    
 }
 
 .img-card {
     width: 500px;
     height: 300px;
     border-radius: 20px;
+    background-color: #FFF3E9;
 }
 
 section div {
@@ -81,22 +87,22 @@ div p {
     width: 200px;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #7B645C;
+    background-color: #3B2B30;
     color: white;
         border-radius: 50px;
 }
 
 .btn:hover {
-    background-color: #3B2B30;
+    background-color: #7B645C;
 }
 
 .line
 {
-    width: 200px;
-    margin-left: 500px;
-    border-bottom: 2px dashed #7B645C;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #7B645C;
 }
-
 
 .testimony {
     display: flex;
