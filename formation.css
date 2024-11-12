@@ -57,7 +57,7 @@ a {
     color: #7B645C;
 }
 
-.formation1, .formation2, .formation3 {
+.formation{
     margin: 60px;
     display: flex;
     justify-content: space-around;
@@ -68,8 +68,9 @@ a {
 .img-card {
     width: 500px;
     height: 300px;
+    padding: 10px 0;
     border-radius: 20px;
-    background-color: #FFF3E9;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 section div {
